@@ -29,6 +29,31 @@ Este projeto é uma API em Ruby on Rails que consome a PokeAPI para buscar infor
 
 ## Instalação
 
+Primeiramente a API possui a alternativa de rodar utilizando o Docker. Para isso siga a instruções abaixo:
+
+1. Clone o repositório:
+
+    ```bash
+    git clone
+    cd pokeapi
+    ```
+
+2. Construa a imagem:
+
+    ```bash
+    docker-compose build
+    ```
+
+3. Execute o container:
+
+    ```bash
+    docker-compose up
+    ```
+
+4. Acesse a API em `http://localhost:3000/`.
+
+Caso não queira utilizar o Docker, você pode rodar a API localmente:
+
 Siga as instruções abaixo para configurar o ambiente de desenvolvimento e executar o projeto localmente.
 
 1. Clone o repositório:
