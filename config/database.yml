@@ -26,6 +26,3 @@ test:
 production:
   <<: *default
   url: <%= ENV["DATABASE_URL"] %>
-  database: pokeapi_production
-  username: pokeapi
-  password: <%= ENV["POKEAPI_DATABASE_PASSWORD"] %>
