@@ -21,6 +21,8 @@ Bem-vindo ao PokeAPI, um projeto que permite buscar informações sobre Pokémon
 
 A API está disponível em https://pokeapi-jlft.onrender.com, porém você também pode acessar a versão web em https://pokeapiweb.vercel.app/.
 
+O repositório para o Frontend você encontra no link https://github.com/nicholastn1/pokeapiweb.
+
 ## Visão Geral
 
 Este projeto é uma API em Ruby on Rails que consome a PokeAPI para buscar informações sobre Pokémon. A API permite realizar consultas para obter informações sobre Pokémon e suas habilidades.
