@@ -14,6 +14,8 @@ class PokeapiService
       ability['ability']['name']
     end.sort
 
-    { name: pokemon_name, abilities: abilities }
+    sprite = pokemon_data['sprites']['front_default']
+
+    { name: pokemon_name, abilities: abilities, sprite: sprite }
   end
 end
